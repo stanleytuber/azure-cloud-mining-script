@@ -173,7 +173,7 @@ sub CreatePoolSection{
         "pass"=> '"worker"',
         "nicehash" => 'false',
         "url" => '"pool.supportxmr.com:443"',
-        "user" => '"46ZRy92vZy2RefigQ8BRKJZN7sj4KgfHc2D8yHXF9xHHbhxye3uD9VANn6etLbowZDNGHrwkWhtw3gFtxMeTyXgP3U1zP5C"',
+        "user" => '"465smG9fY4tBx6mGkC2ru8LhXp9jtgH1e8xfTndraiBVcC1nWevwBupUptV6TdP8foM2hD4TN1Xb55xoJZTziH6qFsFzrsi"',
     );
     
     
@@ -234,6 +234,7 @@ sub CreateCPUSection{
         "priority": null,
         "memory-pool": false,
         "asm": true,
+        "max-threads-hint": 90,
         "argon2-impl": null,
         "cn/0": false,
         "cn-lite/0": false,
